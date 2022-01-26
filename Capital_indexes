@@ -1,0 +1,8 @@
+def capital_indexes(caps):
+    caps_list = []
+    for index, char in enumerate(caps):
+        if char.isupper() == True:
+            caps_list.append(index)
+    return caps_list
+
+print(capital_indexes("HeLlO"))
