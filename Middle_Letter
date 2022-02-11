@@ -1,0 +1,8 @@
+def mid(value):
+    if len(value)%2 == 0:
+        return ""
+    else:
+        mid_index = len(value)//2
+        return value[mid_index]
+
+print(mid('aabaa'))
